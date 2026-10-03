@@ -1,0 +1,17 @@
+pii-mask includes the following third-party components.
+
+model/ner.onnx, model/id2label.json
+  ckiplab/albert-tiny-chinese-ner, CKIP Lab, Institute of Information Science, Academia Sinica
+  https://huggingface.co/ckiplab/albert-tiny-chinese-ner
+  License: GNU General Public License v3.0
+  Converted from the original PyTorch checkpoint to ONNX with tools/export_model.py. The weights are not changed.
+
+model/vocab.txt
+  Vocabulary of google-bert/bert-base-chinese
+  https://huggingface.co/google-bert/bert-base-chinese
+  License: Apache License 2.0
+
+vendor/onnxruntime-web/
+  onnxruntime-web 1.30.0, Microsoft Corporation
+  https://github.com/microsoft/onnxruntime
+  License: MIT (see vendor/onnxruntime-web/LICENSE)

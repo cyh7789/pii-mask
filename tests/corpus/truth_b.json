@@ -1,0 +1,347 @@
+{
+ "B01_客戶諮詢表.txt": {
+  "pii": [
+   {
+    "type": "公司",
+    "value": "青禾烘焙有限公司",
+    "leak_check": "青禾烘焙有限公司"
+   },
+   {
+    "type": "統編",
+    "value": "95037301",
+    "leak_check": "95037301"
+   },
+   {
+    "type": "姓名",
+    "value": "葉美玲",
+    "leak_check": "葉美玲"
+   },
+   {
+    "type": "姓名",
+    "value": "廖子瑜",
+    "leak_check": "廖子瑜"
+   },
+   {
+    "type": "手機",
+    "value": "+886 910 555 321",
+    "leak_check": "910 555 321"
+   },
+   {
+    "type": "市話",
+    "value": "06-298-1177",
+    "leak_check": "06-298-1177"
+   },
+   {
+    "type": "Email",
+    "value": "ziyu.liao@qinghe-bakery.example",
+    "leak_check": "ziyu.liao@qinghe-bakery.example"
+   },
+   {
+    "type": "地址",
+    "value": "台南市安平區永華路二段248號",
+    "leak_check": "永華路二段248號"
+   }
+  ],
+  "keep": [
+   "員工 12 人",
+   "一鍵發薪",
+   "勞健保投保級距",
+   "行政專員"
+  ],
+  "indirect": []
+ },
+ "B02_員工資料_從Excel貼上.txt": {
+  "pii": [
+   {
+    "type": "姓名",
+    "value": "蘇曉芸",
+    "leak_check": "蘇曉芸"
+   },
+   {
+    "type": "身分證",
+    "value": "Q209052748",
+    "leak_check": "Q209052748"
+   },
+   {
+    "type": "生日",
+    "value": "1992-11-03",
+    "leak_check": "1992-11-03"
+   },
+   {
+    "type": "地址",
+    "value": "新竹縣竹北市光明六路東一段 10 號",
+    "leak_check": "市光明六路東一段 10 號"
+   },
+   {
+    "type": "銀行帳號",
+    "value": "0123456789012",
+    "leak_check": "0123456789012"
+   },
+   {
+    "type": "姓名",
+    "value": "羅家銘",
+    "leak_check": "羅家銘"
+   },
+   {
+    "type": "身分證",
+    "value": "N181968409",
+    "leak_check": "N181968409"
+   },
+   {
+    "type": "生日",
+    "value": "1985-01-27",
+    "leak_check": "1985-01-27"
+   },
+   {
+    "type": "地址",
+    "value": "花蓮縣吉安鄉中央路三段 55 巷 2 弄 7 號",
+    "leak_check": "鄉中央路三段 55 巷 2 弄 7 號"
+   },
+   {
+    "type": "銀行帳號",
+    "value": "8070-1234-5678",
+    "leak_check": "8070-1234-5678"
+   },
+   {
+    "type": "姓名",
+    "value": "洪雅琪",
+    "leak_check": "洪雅琪"
+   },
+   {
+    "type": "身分證",
+    "value": "M207612985",
+    "leak_check": "M207612985"
+   },
+   {
+    "type": "生日",
+    "value": "1998-06-09",
+    "leak_check": "1998-06-09"
+   },
+   {
+    "type": "地址",
+    "value": "嘉義市西區民族路 432 號 4 樓",
+    "leak_check": "民族路 432 號 4 樓"
+   },
+   {
+    "type": "銀行帳號",
+    "value": "11223344556677",
+    "leak_check": "11223344556677"
+   }
+  ],
+  "keep": [
+   "A07",
+   "A08",
+   "A09"
+  ],
+  "indirect": []
+ },
+ "B03_訪談紀錄.txt": {
+  "pii": [
+   {
+    "type": "姓名",
+    "value": "李大明",
+    "leak_check": "李大明"
+   },
+   {
+    "type": "姓名",
+    "value": "周偉倫",
+    "leak_check": "周偉倫"
+   },
+   {
+    "type": "姓名",
+    "value": "葉怡伶",
+    "leak_check": "葉怡伶"
+   },
+   {
+    "type": "姓名",
+    "value": "Kelly",
+    "leak_check": "Kelly"
+   }
+  ],
+  "keep": [
+   "連上 7 天班",
+   "去年 11 月",
+   "10/15",
+   "初步健檢報告"
+  ],
+  "indirect": [
+   "老闆娘黃小姐",
+   "會計阿珍"
+  ]
+ },
+ "B04_客戶來信.txt": {
+  "pii": [
+   {
+    "type": "姓名",
+    "value": "TRAN THI MAI",
+    "leak_check": "TRAN THI MAI"
+   },
+   {
+    "type": "姓名",
+    "value": "張惠雯",
+    "leak_check": "張惠雯"
+   },
+   {
+    "type": "姓名",
+    "value": "Vivian Chang",
+    "leak_check": "Vivian Chang"
+   },
+   {
+    "type": "公司",
+    "value": "宏遠物流有限公司",
+    "leak_check": "宏遠物流有限公司"
+   },
+   {
+    "type": "市話",
+    "value": "+886-2-2700-1234",
+    "leak_check": "2700-1234"
+   },
+   {
+    "type": "手機",
+    "value": "0910-668-204",
+    "leak_check": "0910-668-204"
+   },
+   {
+    "type": "Email",
+    "value": "vivian.chang@hongyuan-logistics.example",
+    "leak_check": "vivian.chang@hongyuan-logistics.example"
+   }
+  ],
+  "keep": [
+   "到職剛滿一年",
+   "颱風假",
+   "管理部",
+   "越南籍"
+  ],
+  "indirect": []
+ },
+ "B05_性騷擾申訴紀錄.txt": {
+  "pii": [
+   {
+    "type": "姓名",
+    "value": "蘇曉芸",
+    "leak_check": "蘇曉芸"
+   },
+   {
+    "type": "姓名",
+    "value": "羅家銘",
+    "leak_check": "羅家銘"
+   }
+  ],
+  "keep": [
+   "性別平等工作法第 13 條",
+   "9 月 12 日",
+   "外場服務員"
+  ],
+  "indirect": [
+   "組長（被申訴人身分）",
+   "晚班、員工休息室"
+  ]
+ },
+ "B06_移工資料.txt": {
+  "pii": [
+   {
+    "type": "姓名",
+    "value": "PHAM VAN NAM",
+    "leak_check": "PHAM VAN NAM"
+   },
+   {
+    "type": "姓名",
+    "value": "范文南",
+    "leak_check": "范文南"
+   },
+   {
+    "type": "居留證",
+    "value": "H955042801",
+    "leak_check": "H955042801"
+   },
+   {
+    "type": "護照",
+    "value": "C1234567",
+    "leak_check": "C1234567"
+   },
+   {
+    "type": "公司",
+    "value": "宏遠物流有限公司",
+    "leak_check": "宏遠物流有限公司"
+   },
+   {
+    "type": "統編",
+    "value": "60106983",
+    "leak_check": "60106983"
+   },
+   {
+    "type": "地址",
+    "value": "桃園市觀音區中山路一段 15 號",
+    "leak_check": "中山路一段 15 號"
+   }
+  ],
+  "keep": [
+   "勞動部",
+   "115 年 3 月 2 日",
+   "國籍：越南"
+  ],
+  "indirect": []
+ },
+ "B07_調解通知.txt": {
+  "pii": [
+   {
+    "type": "姓名",
+    "value": "何建宏",
+    "leak_check": "何建宏"
+   },
+   {
+    "type": "地址",
+    "value": "臺北市大安區和平東路二段106號3樓",
+    "leak_check": "和平東路二段106號"
+   },
+   {
+    "type": "公司",
+    "value": "青禾烘焙有限公司",
+    "leak_check": "青禾烘焙有限公司"
+   },
+   {
+    "type": "姓名",
+    "value": "葉美玲",
+    "leak_check": "葉美玲"
+   }
+  ],
+  "keep": [
+   "臺灣臺北地方法院",
+   "115年度勞專調字第123號",
+   "勞動事件法第 22 條",
+   "115 年 11 月 6 日"
+  ],
+  "indirect": []
+ },
+ "B08_LINE群組.txt": {
+  "pii": [
+   {
+    "type": "LINE ID",
+    "value": "fang_0921",
+    "leak_check": "fang_0921"
+   },
+   {
+    "type": "手機",
+    "value": "0987 654 321",
+    "leak_check": "0987 654 321"
+   },
+   {
+    "type": "姓名",
+    "value": "小芳",
+    "leak_check": "小芳"
+   },
+   {
+    "type": "姓名",
+    "value": "阿翔",
+    "leak_check": "阿翔"
+   }
+  ],
+  "keep": [
+   "病假",
+   "代班",
+   "診斷證明"
+  ],
+  "indirect": []
+ }
+}
